@@ -3,6 +3,7 @@
     --colorTwo: #222831;
     --colorThree: #30475E;
     --colorFour: #F05454;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
@@ -29,6 +30,19 @@ body {
     grid-row: 1 / 4;
     height: 100vh;
     width: auto;
+}
+
+.sidelist {
+    display: grid;
+    list-style-type: none;
+}
+
+.side-item {
+    color: white;
+}
+
+.dashboard {
+    color: red;
 }
 
 .content {

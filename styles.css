@@ -22,6 +22,39 @@ body {
 .header {
     background-color: var(--colorThree);
     grid-column: 2 / 4;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header-container {
+    display: flex;
+}
+
+.search-container {
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    height: 1.5rem;
+    width: 20rem;
+    border-radius: 20px;
+    background-color: var(--colorTwo);
+    color: white;
+    border: 0;
+    padding-left: 10px;
+}
+
+.button-container {
+    color: red
+}
+
+.welcome-container {
+    color: red
+}
+
+.profile-container {
+    color: red
 }
 
 .sidebar {

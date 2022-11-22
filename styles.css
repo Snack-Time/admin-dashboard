@@ -69,7 +69,18 @@ button:active {
 }
 
 .welcome-container {
-    color: red
+    color: white;
+    flex-direction: column;
+}
+
+.bottom-welcome, .top-welcome {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5vw;
+}
+
+.bottom-welcome {
+    font-size: 28px;
 }
 
 .profile-container {

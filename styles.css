@@ -114,6 +114,7 @@ button:active {
 
 .dashboard {
     font-size: 30px;
+    display: block;
 }
 
 .content {
